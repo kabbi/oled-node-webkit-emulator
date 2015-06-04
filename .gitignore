@@ -1,0 +1,8 @@
+bower_components/
+node_modules/
+npm-debug.log
+
+_public/
+dist/
+test/test-results.xml
+.DS_Store

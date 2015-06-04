@@ -1,0 +1,13 @@
+nav.navbar.navbar-default.navbar-fixed-top.hidden(ng-controller="NavCtrl")
+	.container-fluid
+		a.navbar-brand(ng-href="#/") Рассчеты
+		ul.nav.navbar-nav
+			li(ng-class="{active: isActiveNav('/calc')}")
+				a(ng-href="#/calc") Калькулятор
+			li(ng-class="{active: isActiveNav('/debts')}")
+				a(ng-href="#/debts") Рассчет кредита
+		ul.nav.navbar-nav.navbar-right
+			//- li
+			//- 	button.btn.btn-sm.btn-danger.navbar-btn(ng-click="reinit()") Deploy scripts
+			//- li
+			//- 	a(href="#", ng-click="logoff()") Выйти

@@ -1,0 +1,33 @@
+{
+  "author": "My Name",
+  "name": "MyAwesomeApp",
+  "description": "Package Description",
+  "version": "0.0.1",
+  "homepage": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.html",
+  "node-main": "",
+  "single-instance": true,
+  "chromium-args": "",
+  "dom_storage_quota": 1024,
+  "window": {
+    "title": "Рассчеты",
+    "icon": "link.png",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "width": 800,
+    "height": 500,
+    "resizable": true,
+    "always-on-top": false,
+    "fullscreen": false
+  },
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2"
+  }
+}
